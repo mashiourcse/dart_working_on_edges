@@ -1,0 +1,43 @@
+void main() {
+
+  var questions = [
+
+    {
+      'questionText' : 'What\'s your favorite color?',
+      'answers' : ['Black', 'Red', 'Green', 'White'],
+    },
+
+    {
+      'questionText' : 'What\'s your favorite animal?',
+      'answers' : ['Cat', 'Dog', 'Gorilla', 'Tiger'],
+    },
+
+    {
+      'questionText' : 'What\'s your favorite Game?',
+      'answers' : ['Valorant', 'PUBGM', 'CODM', 'Fortnite'],
+    },
+
+  ];
+  
+  
+  var x = questions.map( (question){
+    
+    return question;
+  
+  }).toList();
+  
+   
+  List y = x[0]['answers'];
+ 
+  y.forEach( (e){
+    return e;
+  });
+  
+  print(y[1]);
+
+  
+}
+
+
+
+ 
